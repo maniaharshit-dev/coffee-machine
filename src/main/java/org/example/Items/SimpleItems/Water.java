@@ -45,6 +45,7 @@ public class Water extends SimpleItem implements IHeatable, IDispensible {
     }
 
     @Override
+    //suggestion : water class must extend targetTemperature to use that
     public void heat(int targetTemperature) throws InterruptedException {
 //      heat to target temperature
         temperature = targetTemperature;
